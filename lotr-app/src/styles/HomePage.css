@@ -1,0 +1,25 @@
+.home-container {
+  background-color: #f5f5f5;
+  border: 0.0625rem solid #e8e8e8;
+  margin-bottom: 10px;
+  padding: 1.25rem;
+  border-radius: 0.25rem;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+
+@media (max-width: 768px) {
+  .home-container {
+    padding: 1rem;
+  }
+}
+
+.container-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
